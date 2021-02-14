@@ -19,7 +19,7 @@ app.use('/posts', postRoutes);
 app.use("/user", userRouter);
 
 app.get('/', (req, res) => {
-  res.send('welcome to moment API');
+  res.send('welcome to moment API, goto moment.zeet.app');
 });
 
 const PORT = process.env.PORT || 5000;
